@@ -32,7 +32,7 @@ font-weight: 300;
 }
 
 @media and screen (max-width: 768px) {
-img {
+header img{
 width: 25%;
 }
 
