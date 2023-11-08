@@ -342,7 +342,7 @@ padding: 18px 18px;
 background-color: transparent;
 }
 
-#scrollToTopBtn:hover {
+button:hover {
 color: #FF3131;
 }
 
