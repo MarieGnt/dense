@@ -31,7 +31,7 @@ text-transform: uppercase;
 font-weight: 300;
 }
 
-media and screen (min-width: 768px) {
+@media and screen (min-width: 768px) {
 img {
 width: 25%;
 }
