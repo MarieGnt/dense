@@ -288,7 +288,7 @@ width: 100%;
 footer {
 display: flex;
 justify-content: center;
-flex-wrap:wrap;
+align-items: center;
 bottom: 0;
 width: 100%;
 height: 350px;
@@ -300,6 +300,17 @@ footer img {
 padding: 10px;
 width: 200px;
 }
+
+
+@media only screen and (max-width: 600px) {
+  
+footer img{
+width: 15%;
+}
+
+}
+
+
 
 .element2 {
 display: flex;
