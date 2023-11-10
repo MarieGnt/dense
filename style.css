@@ -103,7 +103,7 @@ li {
 }
 
 
-
+/*articles positionnés à gauche*/
 .info1{
 width: 20%;
 margin-left: 10%;
@@ -124,7 +124,7 @@ text-align: right;
   }
 }
 
-
+/*articles positionnés à droite*/
 
 .slide-left {
   animation: 3s slide-left;
