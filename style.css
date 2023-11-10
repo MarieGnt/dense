@@ -63,7 +63,7 @@ h2{
   font-size: 2em;
 }
 
-p{
+article{
   padding: 20px 10px;
   color: white;
   font-weight: 200;
@@ -193,7 +193,7 @@ width: 100%;
     background-color: #f1f1f1c4;
     margin-top: 10%;
   }
-  .info1 p{
+  .info1 article{
     color: #4d4b4b;
     font-size: 1em;
   }
@@ -209,7 +209,7 @@ width: 100%;
     background-color: #f1f1f1c4;
     margin-top: 10%;
   }
-  .info2 p{
+  .info2 article{
     color: #4d4b4b;
     font-size: 1em;
   }
