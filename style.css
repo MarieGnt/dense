@@ -8,6 +8,7 @@ background-color: #242424;
 }
 
 
+
 header {
 display: flex;
 align-items: center;
@@ -92,6 +93,10 @@ li {
   list-style: none;
 }
 
+hr{
+  margin-top: 10vh;
+}
+
 .section1{
   background-image: url(.//img/bg.png);
   background-size: 34vw;
@@ -166,7 +171,7 @@ width: 100%;
 @media screen and (max-width : 1260px){
   .section1{
     background-size: 30%;
-    background-image: url(.//img/colonne_centrale_small.png);
+    background-image: url(.//img/bg_small.png);
   }
   .info1{
     width: 30%;
@@ -183,7 +188,7 @@ width: 100%;
 
 @media screen and (max-width : 910px){
   .section1{
-    background-image: url(.//img/colonne_centrale.png);
+    background-image: url(.//img/bg.png);
     background-size: 100%;
     padding-bottom: 5%;
   }
@@ -216,17 +221,118 @@ width: 100%;
 }
 
 
+/*-----------------------------Section 2 : LE CORBUSIER -----------------------------------*/
+
+.section2{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+flex-direction: column;
+margin-top: 10vh;
+}
+
+.soupe{
+  width: 34%;
+}
+
+.section2 .soupe h2 {
+  display: flex;
+  flex-direction: column;
+  text-align:justify;
+  font-size: 2.5vw;
+  font-family: 'M PLUS Code Latin', monospace;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 0px;
+  }
+
+.section2 h2 span{
+    color: #FF3131;
+    text-align: center;
+}
+  
+  @media only screen and (max-width: 1260px) {
+.soupe{
+  width: 50%;
+}
+.section2 .soupe h2 {
+  text-align: center;
+    font-size: 3.7vw;
+  }
+.soupe article{
+  font-size: 1em;
+}
+  }
+  
+  @media only screen and (max-width: 700px) {
+.soupe{
+  width: 80%;
+}
+.section2 .soupe h2 {
+    font-size: 5.7vw;
+  }
+
+  }
+
+.corbu{
+  display: none;
+  width: fit-content;
+  flex-direction: column;
+  align-items: center;
+}  
+.section2 span:hover>.corbu{
+  display: flex;
+}
+.corbu img{
+  width: 50%;
+}
+.corbu p{
+  padding: 20px 10px;
+  color: white;
+  font-weight: 200;
+  text-align: justify;
+  font-size: 0.5em;
+  text-transform:capitalize;
+  padding: 0%;
+  margin: 0%;
+}
+
+
+.section2 h3 {
+  width: 34%;
+  font-size: 2.5vw;
+  font-family: 'M PLUS Code Latin', monospace;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 0px;
+  }
+
+  
+  @media only screen and (max-width: 1260px) {
+.section2 h3 {
+  width: 50%;
+font-size: 3.7vw;
+  }
+  }
+  
+  @media only screen and (max-width: 700px) {
+.section2 h3 {
+  width: 80%;
+    font-size: 5.7vw;
+  }
+  }
+
 /*-----------------------------Swiper-----------------------------------*/
-
-
-
 
 .swiper {
   width: 70%;
   padding-top: 3.125rem;
   height: 28.125rem;
   z-index: 2;
-  margin: 10% 5%;
+  margin: 5% 5%;
 }
 
 .swiper-pagination-bullet,
@@ -251,7 +357,12 @@ width: 100%;
   background-size:cover;
 }
 
-.swiper-slide h3 {
+.swiper-slide-prev, 
+.swiper-slide-next{
+  filter: blur(2px);
+}
+
+.swiper-slide h4 {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -365,3 +476,23 @@ justify-content: center;
 align-items: center;
 }
 
+
+/*
+#                             ___-------___
+#                         _-~~             ~~-_
+#                      _-~                    /~-_
+#   /^\__/^\         /~  \                   /    \
+# /|  O|| O|        /      \_______________/        \
+#| |___||__|      /       /                \          \
+#|          \    /      /                    \          \
+#|   (_______) /______/                        \_________ \
+#|         / /         \                      /            \
+# \         \^\\         \                  /               \     /
+#   \         ||           \______________/      _-_       //\__//
+#     \       ||------_-~~-_ ------------- \ --/~   ~\    || __/
+#       ~-----||====/~     |==================|       |/~~~~~
+#        (_(__/  ./     /                    \_\      \.
+#               (_(___/                         \_____)_)
+
+(je l'ai volé sur le robots.txt de nature et découverte)
+*/
